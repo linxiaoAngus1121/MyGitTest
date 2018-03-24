@@ -4,16 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        />
-
-    <Button
-        android:onClick="name"
+    <my.lx.mygit.adapter.MyLayout
+        android:id="@+id/mylayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/edit_name"
-        />
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="name"
+            android:text="里面的按钮"
+            />
+
+        <my.lx.mygit.adapter.MButton
+            android:id="@+id/custom_but"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义按钮"/>
+
+    </my.lx.mygit.adapter.MyLayout>
 </LinearLayout>

@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         mylayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.i("000", "执行了mylayout的Onclick");
+                Log.i("000", "执行了自定义layout中mylayout的Onclick");
             }
         });
 

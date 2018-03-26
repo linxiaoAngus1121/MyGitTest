@@ -14,14 +14,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="name"
-            android:text="里面的按钮"
+            android:text="@string/out_but"
             />
 
         <my.lx.mygit.adapter.MButton
             android:id="@+id/custom_but"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="自定义按钮"/>
+            android:text="@string/cus_but"/>
 
     </my.lx.mygit.adapter.MyLayout>
 </LinearLayout>
